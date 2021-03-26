@@ -17,6 +17,13 @@ body {
 .dire {
 	direction: rtl!important;
 }
+.row {
+	width: 100%;
+	margin: auto;
+}
+p {
+	margin: 0!important;
+}
 a {
 	text-decoration: none;
 	color: #bfc6c9;
@@ -24,6 +31,7 @@ a {
 a:hover {
 	text-decoration: none;
 }
+
 .heading-section {
 	letter-spacing: -1px;
 	text-transform: uppercase;
@@ -158,10 +166,10 @@ a:hover {
 	position: relative;
 	display: block;
 }
-.navbar .my-cart span{
+.counter {
 	position: absolute;
 	color: #fff;
-	font-size: 10px;
+	font-size: 10px!important;
 	top: -10px;
 	right: -10px;
 	background-color: var(--secondary-color);
@@ -191,10 +199,85 @@ a:hover {
 	color:var(--primary-color)!important;
 }
 /*END SLIDER*/
-/*START LATEST POSTS*/
-.card {
-	
+/*START PRODUCTS*/
+.products-section {
+	margin: 50px 0;
 }
+.product-box {
+	height: 430px;
+	padding: 10px;
+	position: relative;
+	margin: 5px;
+	border: none!important;
+	background-color: #fbfbfb;
+}
+.product-box:hover{
+	box-shadow: 0px 0px 20px 0px rgb(235, 235, 235);
+}
+.product-title {
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 1.5;
+}
+.product-name {
+	font-weight: bold;
+	position: absolute;
+	font-size:16px ;
+	top: 20px;
+	right:20px ;
+	color: var(--secondary-color);
+}
+.product-body {
+	padding: 10px;
+}
+.price-box {
+	align-items: center;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	padding: 15px 15px;
+	display: flex;
+	justify-content: space-between;
+}
+.price-box .cart i{
+	color: var(--primary-color)!important;
+	position: relative;
+	font-size: 25px;
+}
+.price-box .cart i span{
+	font-size: 25px;
+}
+.price {
+	font-size: 20px!important;
+	color: var(--primary-color);
+}
+.sale-price {
+	font-size: 13px;
+	position: absolute;
+	top:20px;
+	left: 20px;
+}
+.sale {
+	text-decoration: none!important;
+	font-weight: bold;
+	color: rgb(0, 209, 0);
+	margin-right: 5px;
+	width: 50px;
+	font-size: 12px;
+	background-color: var(--light-color);
+	border-radius: 10px;
+  }
+  .line {
+	text-decoration: line-through;
+  }
+  .over {
+	  color:red;
+	  font-size: 16px;
+	  line-height: 1.2;
+  }
+/*END PRODUCTS*/
+/*START LATEST POSTS*/
 .latest_post .row .card h4{
 	color: var(--primary-color);
 	font-size: 20px;
