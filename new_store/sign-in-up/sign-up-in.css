@@ -188,7 +188,12 @@
 	}
 	.form-v4-content .form-detail {
 		padding: 30px 20px;
-	    width: auto;
+		width: 100%;
+		margin: auto
+	}
+	.form-v4-content {
+		width: 95%;
+		margin: auto;
 	}
 }
 
