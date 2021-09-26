@@ -82,6 +82,13 @@
 .form-v4-content .form-detail .form-row label#error {
 	color: red;
 }
+.forget-pass {
+	text-align: right;
+	color: #000!important;
+}
+.forget-pass a {
+	color: #000!important;
+}
 .form-row-last {
 	text-align: right;
 }
